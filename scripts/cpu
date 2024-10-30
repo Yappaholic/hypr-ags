@@ -1,0 +1,6 @@
+#!/usr/bin/env nu
+def get_cpu_usage [] {
+  let usage = sys cpu | get cpu_usage | math median | math round
+  return $usage
+}
+get_cpu_usage

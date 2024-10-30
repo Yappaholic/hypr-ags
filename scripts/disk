@@ -1,0 +1,9 @@
+#!/usr/bin/env nu
+
+def get_disk_space [] {
+	let space = df / | detect columns | get Available.0 | into int
+	let space_rounded = ($space / 1024) / 1024 | math round --precision 2
+	return $space_rounded
+}
+
+get_disk_space

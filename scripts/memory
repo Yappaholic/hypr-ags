@@ -1,0 +1,6 @@
+#!/usr/bin/env nu
+def get_free_memory [] {
+  let memory = sys mem | get used
+  return $memory
+}
+get_free_memory
