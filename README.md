@@ -1,5 +1,9 @@
 # AGS widgets for Hyprland {Kanagawa theme}
 
+![Bar](screenshots/bar.png)
+
+![Application menu](screenshots/menu.png)
+
 Some widgets are ~~horrendously stolen~~ inspired from the examples in the
 [AGS repository](https://github.com/Aylur/ags/tree/main/example).
 
