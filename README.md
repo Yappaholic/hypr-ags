@@ -1,7 +1,9 @@
 # AGS widgets for Hyprland {Kanagawa theme}
 
+## Bar
 ![Bar](screenshots/bar.png)
 
+## Application Menu
 ![Application menu](screenshots/menu.png)
 
 Some widgets are ~~horrendously stolen~~ inspired from the examples in the
